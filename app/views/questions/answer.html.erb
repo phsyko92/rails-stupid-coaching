@@ -1,0 +1,14 @@
+
+<div class=container>
+ <div class="p-3 mb-2 bg-light text-dark bg-success p-2 text-dark bg-opacity-25 position-relative d-flex flex-column">
+  <div class="self-end ms-auto border p-3 mb-2 bg-primary text-white rounded-pill">
+    <%= @question %>
+  </div>
+  <p class="self-end fst-italic text-end fw-light"> -You </p>
+  <div class="self-start me-auto border p-3 mb-2 bg-light text-dark text-start rounded-pill">
+    <%= @answer %>
+  </div>
+  <p class="self-start fst-italic text-start fw-light"> -Your coach </p>
+</div>
+  <%= link_to "Ask a new Question", ask_path %>
+</div>
